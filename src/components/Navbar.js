@@ -16,7 +16,7 @@ function Navbar(){
             <ul className={clicked? 'nav-menu active': 'nav-menu'}>
                 {MenuItems.map((item, index) => {
                     return (
-                        <li key={index}>
+                        <li key={index} onClick={handleClick}>
                             <a href={item.url} className={item.cName}>
                                 {item.title}
                             </a>
