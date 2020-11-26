@@ -20,6 +20,8 @@ function Skills(){
                                 <Tech key={index} src={item.src} name={item.name} experience={item.experience} />
                             )
                         }
+                        else
+                            return null;
                     })}
                 </div>
             </div>
@@ -34,6 +36,7 @@ function Skills(){
                                 <Tech key={index} src={item.src} name={item.name} experience={item.experience} />
                             )
                         }
+                        else return null;
                     })}
                 </div>
             </div>
@@ -46,8 +49,8 @@ function Skills(){
                         if (item.category==='app'){
                             return (
                                 <Tech key={index} src={item.src} name={item.name} experience={item.experience} />
-                            )
-                        }
+                            ) 
+                        }else return null;
                     })}
                 </div>
             </div>
@@ -61,7 +64,7 @@ function Skills(){
                             return (
                                 <Tech key={index} src={item.src} name={item.name} experience={item.experience} />
                             )
-                        }
+                        }else return null;
                     })}
                 </div>
             </div>
