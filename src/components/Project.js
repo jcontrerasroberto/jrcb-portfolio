@@ -20,7 +20,7 @@ function Project(props){
                 </div>
                 <div className="buttons">
                     <a className="git-link" href={props.repo} target="_blank" rel="noreferrer">
-                        <img src="./tech-icons/github.svg"></img><p>GitHub</p>
+                        <img src="./tech-icons/github.svg" alt={props.description}></img><p>GitHub</p>
                     </a>
                     {
                         props.demo!=null && 
