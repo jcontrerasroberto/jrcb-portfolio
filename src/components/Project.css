@@ -30,6 +30,10 @@
     border-radius: 15px 15px 0 0;
 }
 
+.description{
+    width: 100%;
+}
+
 .techs{
     display: flex;
     justify-content: space-around;
@@ -41,12 +45,14 @@
 .buttons{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     align-items: center;
     margin-top: 15px;
 }
 
 .git-link, .demo-link{
     font-size: 15px;
+    margin: 5px;
     padding: 5px 20px;
     border-radius: 7px;
     cursor: pointer;
@@ -54,12 +60,30 @@
 
 .git-link{
     background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.git-link img{
+    width: 25px;
+    filter:  brightness(0) invert(1);
+    margin-right: 10px;
 }
 
 .git-link p{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    display: inline;
+}
+
+.git-link p img{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline;
 }
 
 .demo-link{
