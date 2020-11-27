@@ -114,6 +114,12 @@ export const TechItems = [
         experience: 1   
     },
     {
+        category: 'software',
+        name: 'Bash',
+        src: './tech-icons/bash.svg',
+        experience: 1
+    },
+    {
         category: 'app',
         name: 'Java (Android)',
         src: './tech-icons/java.svg',
@@ -147,7 +153,7 @@ export const TechItems = [
         category: 'other',
         name: 'Photoshop',
         src: './tech-icons/photoshop.svg',
-        experience: 3  
+        experience: 1  
     },
     {
         category: 'other',

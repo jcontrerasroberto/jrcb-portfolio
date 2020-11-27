@@ -68,6 +68,20 @@ function Skills(){
                     })}
                 </div>
             </div>
+            <div className="Area">
+                <div className="area-title">
+                    <p>Learning</p>
+                </div>
+                <div className="card-container">
+                    {TechItems.map((item, index) => {
+                        if (item.category==='learning'){
+                            return (
+                                <Tech key={index} src={item.src} name={item.name} experience={item.experience} />
+                            )
+                        }else return null;
+                    })}
+                </div>
+            </div>
         </div>
     )
 }

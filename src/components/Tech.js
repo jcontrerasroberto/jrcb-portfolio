@@ -9,7 +9,7 @@ function Tech(props){
                 <div className="logo">
                 <img 
                     src={props.src} 
-                    alt="triangle with all three sides equal"/>
+                    alt="icon of tech"/>
                 </div>
                 <div className="tech-info">
                     <span className="tech-name">{props.name}</span> 
