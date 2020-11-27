@@ -19,12 +19,12 @@ function Project(props){
                     }
                 </div>
                 <div className="buttons">
-                    <a className="git-link" href={props.repo} target="_blank">
+                    <a className="git-link" href={props.repo} target="_blank" rel="noreferrer">
                         <p>GitHub</p>
                     </a>
                     {
                         props.demo!=null && 
-                            <a className="demo-link" href={props.demo}>
+                            <a className="demo-link" href={props.demo} target="_blank" rel="noreferrer">
                                 <p>Demo</p>
                             </a>
                     }
