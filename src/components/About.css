@@ -4,6 +4,7 @@
 
 .AboutGlobal{
     color: black;
+    margin-bottom: 50px;
 }
 
 .AboutTitle{
@@ -21,7 +22,7 @@
     font-size: 30px;
 }
 
-.description{
+.description-about{
     width: 80%;
     margin: auto;
     padding: 20px;
@@ -30,7 +31,15 @@
     line-height: 38px;
 }
 
-.description  a {
+.description-about  a {
     text-decoration: none;
     color: tomato;
+}
+
+@media screen and (max-width: 700px){
+
+    .description-about{
+        font-size: 16px;
+    }
+    
 }

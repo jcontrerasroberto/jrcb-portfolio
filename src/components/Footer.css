@@ -1,0 +1,46 @@
+.Footer{
+    width: 100%;
+    background-color: teal;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.Footer-content{
+    width: 90%;
+    margin: auto;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link{
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social i{
+    color: white;
+    margin: 0 10px; 
+    font-size: 30px;
+}
+
+.nets{
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 700px){
+
+    .Footer-content{
+        font-size: 16px;
+    }
+    
+}

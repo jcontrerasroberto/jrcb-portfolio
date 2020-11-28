@@ -7,7 +7,7 @@ function Project(props){
             <div className="preview">
                 <img src={props.preview} alt=""/>
             </div>
-            <div className="description">
+            <div className="description-project">
                 <h2 className="title-project">{props.title}</h2>
                 <div className="techs">
                     {

@@ -3,15 +3,16 @@ import './Footer.css'
 
 function Footer(){
     return(
-        <footer>
-            <div className="copyright">
-                <p>&copy; 2013 - Organisation</p>
-            </div>
-            <div className="social">
-                <a href="/" className="support">Contact Us</a>
-                <a href="/" className="face">f</a>
-                <a href="/" className="tweet">t</a>
-                <a href="/" className="linked">in</a>
+        <footer className="Footer">
+            <div className="Footer-content">
+                <div className="social">
+                    <div className="nets">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div className="email">
+                        <a href="mailto:contreras.jrobert@gmail.com" className="social-link">contreras.jrobert@gmail.com</a>
+                    </div>
+                </div>
             </div>
         </footer>
     )

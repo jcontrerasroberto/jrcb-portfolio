@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
 .project-card{
     border-radius: 15px;
     margin: 30px;
@@ -17,20 +22,32 @@
     transition: all .5s;
 }
 
+.project-card:hover .preview img{
+    transform: scale(1.5);
+    transition: all .5s;
+}
+
 .preview{
     height: 200px;
     display: flex;
     justify-content: center;
     background-color: #34495E;
     border-radius: 15px 15px 0 0;
+    overflow: hidden;
 }
 
 .preview img{
     width: 100%;
     border-radius: 15px 15px 0 0;
+    transition: all .5s;
 }
 
-.description{
+.description-project{
+    margin: auto;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 38px;
     width: 100%;
 }
 

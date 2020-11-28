@@ -7,7 +7,7 @@ function About(){
             <div className="AboutTitle">
                 <h2>About Me</h2>
             </div>
-            <div className="description">
+            <div className="description-about">
                 <p>Welcome to my portfolio!</p>
                 <p>
                     My name is Roberto and I'm 20 years old.
