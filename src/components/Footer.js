@@ -8,7 +8,7 @@ function Footer(){
                 <div className="social">
                     <div className="nets">
                         <a href="https://github.com/jcontrerasroberto" target="_blank" rel="noreferrer">
-                            <i class="fab fa-github"></i>
+                            <i className="fab fa-github"></i>
                         </a>
                     </div>
                     <div className="email">
