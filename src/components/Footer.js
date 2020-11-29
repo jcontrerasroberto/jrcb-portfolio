@@ -7,7 +7,9 @@ function Footer(){
             <div className="Footer-content">
                 <div className="social">
                     <div className="nets">
-                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/jcontrerasroberto" target="_blank" rel="noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
                     <div className="email">
                         <a href="mailto:contreras.jrobert@gmail.com" className="social-link">contreras.jrobert@gmail.com</a>

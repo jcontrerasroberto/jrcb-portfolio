@@ -70,6 +70,16 @@
     color: red;
 }
 
+.Success-text{
+    color: green;
+    font-weight: bold;
+}
+
+.Error-text{
+    color: red;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 700px){
     .contact-form{
         width: 100%;
