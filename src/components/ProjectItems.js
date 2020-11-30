@@ -32,6 +32,22 @@ export const ProjectItems=[
         demo: null
     },
     {
+        title: 'Netflix Phishing',
+        preview: './projects-img/netflix.webp',
+        description: 'Informative project to warn about phishing',
+        techs: ['HTML', 'CSS', 'PHP', 'MySQL'],
+        repo: 'https://github.com/jcontrerasroberto/netflix-phishing',
+        demo: null
+    },
+    {
+        title: 'Chess-UI',
+        preview: './projects-img/chess-ui.webp',
+        description: 'Interface of a chess game coded in Java',
+        techs: ['Java'],
+        repo: 'https://github.com/jcontrerasroberto/chess-ui',
+        demo: null
+    },
+    {
         title: 'Draw Lines',
         preview: './projects-img/drawlines.webp',
         description: 'Java program to draw lines using the mouse',
