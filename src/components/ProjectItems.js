@@ -16,6 +16,14 @@ export const ProjectItems=[
         demo: null
     },
     {
+        title: 'Hangman',
+        preview: './projects-img/hangman.webp',
+        description: 'Hangman game made in python',
+        techs: ['Python', 'PyQt5'],
+        repo: 'https://github.com/jcontrerasroberto/hangman',
+        demo: null
+    },
+    {
         title: 'Compile And Run',
         preview: './projects-img/compileandrun.webp',
         description: 'Bash script to be more productive',
