@@ -56,6 +56,38 @@ function Skills(){
             </div>
             <div className="Area">
                 <div className="area-title">
+                    <p>Data bases management</p>
+                </div>
+                <div className="card-container">
+                    {TechItems.map((item, index) => {
+                        if (item.category==='bd'){
+                            return (
+                                <Tech key={index} src={item.src} name={item.name} experience={item.experience} />
+                            )
+                        }
+                        else
+                            return null;
+                    })}
+                </div>
+            </div>
+            <div className="Area">
+                <div className="area-title">
+                    <p>Cloud</p>
+                </div>
+                <div className="card-container">
+                    {TechItems.map((item, index) => {
+                        if (item.category==='cloud'){
+                            return (
+                                <Tech key={index} src={item.src} name={item.name} experience={item.experience} />
+                            )
+                        }
+                        else
+                            return null;
+                    })}
+                </div>
+            </div>
+            <div className="Area">
+                <div className="area-title">
                     <p>Other skills</p>
                 </div>
                 <div className="card-container">
