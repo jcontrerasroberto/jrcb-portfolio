@@ -1,5 +1,13 @@
 export const ProjectItems=[
     {
+        title: 'Tesla Clone',
+        preview: './projects-img/teslaclone.webp',
+        description: 'A clone of the webpage of Tesla',
+        techs: ['ReactJS', 'Redux', 'CSS'],
+        repo: 'https://github.com/jcontrerasroberto/tesla-clone',
+        demo: null
+    },
+    {
         title: 'Flappy Bird Clone',
         preview: './projects-img/flappybird.webp',
         description: 'A clone of the popular game Flappy Bird',
