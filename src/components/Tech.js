@@ -16,7 +16,7 @@ function Tech(props){
                 </div>
             </div>
             <div className="tech-back">
-                { props.experience!=0 ? ([<span className="experience">+{props.experience} years of knowledge</span>, <br />]) : null}
+                { props.experience!==0 ? ([<span className="experience">+{props.experience} years of knowledge</span>, <br />]) : null}
             </div> 
             </div>
         </div>
